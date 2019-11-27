@@ -1,5 +1,3 @@
-# { pkgs, lib ? pkgs.stdenv.lib }:
-
 with import <nixpkgs> {};
 
 stdenv.mkDerivation {
